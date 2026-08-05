@@ -35,3 +35,6 @@ Enter the array elements:
 Number of elements greater than or equal to 50 = 3
 
 Hence it is done
+HI
+HELLO
+I'M BACK
