@@ -33,3 +33,5 @@ Enter the number of elements: 6
 Enter the array elements:
 45 67 23 89 50 12
 Number of elements greater than or equal to 50 = 3
+
+Hence it is done
