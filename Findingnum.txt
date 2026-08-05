@@ -1,0 +1,35 @@
+8. Write a C program to count and display the number of elements greater than or equal to 50.
+
+#include <stdio.h>
+
+ void main()
+{
+    int a[100], n, i, count = 0;
+
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter the array elements:\n");
+
+    for(i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    for(i = 0; i < n; i++)
+    {
+        if(a[i] >= 50)
+        {
+            count++;
+        }
+    }
+
+    printf("Number of elements greater than or equal to 50 = %d", count);
+}
+
+
+Output:
+Enter the number of elements: 6
+Enter the array elements:
+45 67 23 89 50 12
+Number of elements greater than or equal to 50 = 3
